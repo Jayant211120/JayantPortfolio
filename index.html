@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jayant Home Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id='header'>
+        <video autoplay muted loop>
+            <source src='video.mp4'>
+        </video>
+        <div class='Image'>
+            <img src="Image1.jpg"alt="No Image Found">
+        </div>
+        <nav>
+            <h1 id='jai'>Jayant</h1>
+            <ul>
+                <li><a href="#jai">HOME</a></li>
+                <li><a href="#heading1">ABOUT-US</a></li>
+                <li><a href="#heading2">SKILLS</a></li>
+                <li><a href="#ach">ACHIEVEMENTS</a></li>
+                <li><a href="#dt">MORE DETAILS</a></li>
+                <li><a href="#contact_heading2">CONTACT-US</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1 id='heading1'>ABOUT US</h1>
+    <div class='about'>
+        <div class="about_image">
+            <img src='pure.jpg'alt='No Image Found'>
+        </div>
+        <div class='add1'>
+            <ol>
+                <li>I am Jayant from Bhiwani(Haryana).</li>
+                <li>I am 20 years old.</li>
+                <li>I am persuing in BCA from Chandigarh Group Of Colleges,Jhanjeri(Mohali),Punjab.</li>
+                <li>I Completed my 10<sup>th</sup> and 12<sup>th</sup> degree from Halwasiya
+                Vidya Vihar in Bhiwani(Haryana). </li>
+                <li>I want to become a Full Stack Developer.</li>
+            </ol>
+        </div>
+    </div>
+
+    <h1 id='heading2'>MY SKILLS</h1>
+    <marquee scrollamount='20'>
+    <div id='myskills'>
+       <!-- <div class='row'> -->
+        <div class="langc">
+            <img src='C.png'alt='No Image Found'><br>
+            <label>C Language:60%</label><br>
+            <progress max='100'min='0'value='60'></progress>
+            <p>C is a procedual language.It's created by Dennis<br> 
+            Ritchie in 1972.In C language,Memory Management<br> are available.
+            </p>
+        </div>
+        <div class="langc">
+            <img src='cpp.png'alt='No Image Found'><br>
+            <label>C++ Language:60%</label><br>
+            <progress max='100'min='0'value='60'></progress>
+            <p>
+                C++ is a object oriented language.It's created by Bjarne
+                <br> Strousp in 1979.In Cpp language OOPs concept are available.
+            </p>
+        </div>
+        <div class="langc">
+            <img src='Python.jpg'alt='No Image Found'><br>
+            <label>Python Language:70%</label><br>
+            <progress max='100'min='0'value='70'></progress>
+            <p>Python is a object oriented high level language.
+            <br>It's created by Guido Van Rousoum in 1989.<br>In Python language,there are many modules <br>are available.
+            </p>     
+        </div>
+    <!-- <div class='column'> -->
+        <div class="langc2">
+            <img src='HTML.png'alt='No Image Found'><br>
+            <label>HTML Language:70%</label><br>
+            <progress max='100'min='0'value='70'></progress>
+            <p>
+                HTML is a Markup language.<br>It is not a programming language.<br>
+                It is used for designing the webpage.
+            </p>   
+        </div> 
+        <div class="langc2">
+            <img src='CSS.jpg'alt='No Image Found'><br>
+            <label>CSS Language:80%</label><br>
+            <progress max='100'min='0'value='80'></progress>
+            <p>
+                CSS is a styling language.<br>It is not a programming language.<br>It is used for styling the webpage.
+            </p>
+        </div>
+        <div class="langc2">
+            <img src='javascript.png'alt='No Image Found'><br>
+            <label>Javascript Language:40%</label><br>
+            <progress max='100'min='0'value='40'></progress>
+            <p>
+                Javascript is a scripting language.<br>In Javascript,used OOPs Concept.<br>
+                It is used for Events handling the webpage.
+            </p>
+        </div>
+        <div class="langc2">
+            <img src='mysql.png'alt='No Image Found'><br>
+            <label>Mysql:80%</label><br>
+            <progress max='100'min='0'value='80'></progress>
+            <p>
+                Mysql is not a programming language.<br>It is used for storing the Data in Mysql.
+            </p>        
+        </div>
+        <div class="langc2">
+            <img src='php.jpg'alt='No Image Found'><br>
+            <label>PHP:65%</label><br>
+            <progress max='100'min='0'value='65'></progress>
+            <p>
+                PHP is a backend programming language.<br>It is used for writing the backend for webpage.
+            </p>
+         </div> 
+    </div>
+</marquee>
+
+    <h1 id="ach">ACHIEVEMENTS</h1>
+    <div class="achievements">
+    <img src='certificate1.jpeg'alt='No Image Found'>
+    <img src='certificiate2.jpg'alt='No Image Found'>
+    <img src='Image19.jpg'alt='No Image Found'>
+    </div>
+
+
+    <h1 id="dt">More Details</h1>
+    <div class="details">
+       <a download href='Resume.rtf'><button class='dr'>DOWNLOAD RESUME</button></a>
+        <a href='https://www.youtube.com/channel/UCndUQ-TVSffY3RxKAf-GtgA'><button class='y'>YOUTUBE</button></a>
+        <a href='https://github.com/Jayant211120'><button class='z'>GITHUB</button></a>
+    </div>
+
+    <h1 id="contact_heading2">CONTACT US</h1>
+    <div id="form">
+    <div class="contact">
+        <form  action="https://formspree.io/f/xqknnedd"
+        method="POST">
+            <input type='text'name='name'placeholder='Enter your Name'autocomplete='off'required><br>
+            <input type='email'name='email'placeholder='Enter your E-Mail'autocomplete='off'required><br>
+            <input type='text'name='mobile'placeholder='Enter your Mobile Number'autocomplete='off'required><br>
+           <textarea rows='7'cols='48'name='message'placeholder='Enter your Comment'autocomplete='off'required></textarea><br>
+           <input type='submit'name='send'placeholder='SUBMIT'class='btn'>
+        </form>
+    </div>
+    </div>
+</body>
+</html>
